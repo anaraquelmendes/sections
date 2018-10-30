@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section {
+  padding: 2em 1em;
+  vertical-align: middle;
+}
+
+image {
+  width: 100%;
+  display: inline-block;
+  max-width: 25em;
+}
+
+body {
+  background-color: #666;
+}
+
+section {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+
+h2 {
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+}
+
+p {
+  color: #333;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 1.5rem;
+}
+
+a {
+  border: 3px solid #000;
+  display: inline-block;
+  text-align: center;
+}
+
+.text {
+  max-width=25em;
+}
